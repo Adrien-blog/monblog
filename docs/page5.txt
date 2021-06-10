@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html> <lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mouches artisanales</title>
+	
+		<link rel="stylesheet" href="style page5.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li id= "logo"><a href="index.html">Mouches artisanales</a></li>
+					<li><a href="#contact">Nous contacter</a><li>		
+					<li><a href="page5.html">Boucles d'oreille</a><li>
+					<li><a href="page4.html">Streamers</a><li>		
+					<li><a href="page3.html">Nymphes</a><li>		
+					<li><a href="page2.html">Mouches sèches</a><li>
+		
+				</ul>
+			</nav>
+			<div id="imagePrincipale">
+				<h1>Boucles d'oreilles</h1>
+				<div id="premierTrait"></div>
+			</div>
+		</header>
+		<section id="mouche">
+			<div id="textIntro">
+				<h2>Boucles d'oreilles</h2>
+				<p>Boucles d'oreilles tendances pour un max de style. Pour ceux qui veulent faire ressortir leur côté naturel en paix avec l'environnement.</p>
+			</div> 
+			<div id="mouches">
+				<div class="imagesmouche">
+					<h4>Boucle d'oreille 1</h4>
+					<a href="#"><img src="images/plume2.jpg" 
+					height="200" width="300"
+					alt = "mouche1"></a>
+				</div> 
+
+			<div class="imagesmouche">
+				<h4>Boucle d'oreille 2</h4>
+				<a href="#"><img src="images/plume3.jpg" 
+				height="200" width="300"
+				alt = "mouche2"></a>
+	
+			</div> 
+	
+			<div class="imagesmouche">
+				<h4>Boucle d'oreille 3</h4>
+				<a href="#"><img src="images/plume4.jpg" 
+				height="200" width="300"
+				alt = "mouche3"></a>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<h2 id="contact">Contactez-nous</h2>
+		<form>
+			<input placeholder="Nom">
+			<input placeholder="E-mail">
+			<textarea placeholder= "Votre message ici"></textarea>
+			<button>Envoyer</button>
+		</form>
+		<div id="deuxiemetrait"></div>
+		<div id = "copyrightEtIcons">
+			<div id="copyright">
+				<span>© from AD; 2020 </span>
+			</div>
+			<div id = "icons">
+				<a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+				<a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+		  	</div>
+		</div>
+ 
+	</footer>
+	</body>
+</html>
+

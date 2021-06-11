@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600;1,700&family=Roboto:wght@100&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-	font-family:'Advent Pro', sans-serif;
+body {   
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color : #808080
 	padding: 0;
 	margin : 0;
 }
@@ -25,9 +28,9 @@ h2 {
 }
 a {
 	text-decoration:none;
-	color: black;
+	color: #FFFFFF;
 	padding-top:30px;
-	fint-size:2em;
+	fint-size:1.2em;
 }
 
 
@@ -40,14 +43,14 @@ font-size:1.2em;
 /*************************************NAVBAR******************************/
 nav {
 	overflow: hidden;
-	background-color:#f1e692 ;
+	background-color:#101b1d;
 	position: fixed;
 	width: 100%;
 	opacity: 0.9;
 }
 header li {
 	float: right;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 header li a {
@@ -57,7 +60,8 @@ header li a {
 	padding: 18px 16px;
 }
 #logo{
-	font-family:'Dancing Script'; cursive;
+	font-family: 'Arimo', sans-serif;
+	cursive;
 	font-weight: bold;
 	float: left;
 }
@@ -72,9 +76,11 @@ header li a {
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Arimo', sans-serif; 
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
-	color: #f9f8f4;
+	color: black;
 	font-size: 6em;
 	margin-top: 40px;
 }
@@ -83,13 +89,15 @@ h1 {
 	height: 1px;
 	width : 25%;
 	margin: -3px auto;
-	background-color : #FFFAE1;
+	background-color : black;
 }
 
 h3 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Arimo', sans-serif;
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
-	color: #f9f8f4;
+	color: black;
 	font-size: 4em;
 }
 
@@ -109,7 +117,7 @@ h3 {
 	padding: 30px 10%;
 }
 .imagesmouche h4 {
-	font-family:'Dancing Script', cursive;
+	font-family: 'Roboto', cursive;
 	text-align: center;
 	font-size: 1.8em;
 	margin : 15px;
@@ -128,7 +136,7 @@ h3 {
 
 /*********************************PECHE**************************/
 #poissons{
-	height : 2500px;
+	height : 2000px;
 	background-color: #f1f2f6;
 	padding: 1px 2%;
 }
@@ -159,14 +167,15 @@ h3 {
 #poissons #Photo2{
 	float: right;
 	height : 620px;
-	width : 100%
+	width : 100%;
 }
 
 #poissons p {
 	
 	height: 45px;
 	width: 235px;
-	background-color : #ab9b24;
+	color: white;
+	background-color : #101b1d;
 	float: right;
 	margin: 50px -180px 0 0;
 	front-size: 2.5em;
@@ -178,21 +187,16 @@ h3 {
 
 #Photo2 p {
 	float : left;
-	background-color: #ab9b24;
+	color: white;
+	background-color: #101b1d;
 	margin-left:-180px;
 	box-shadow: -4px 4px 0 1px rgba(15;154,156,1);
 }  
 
-.video {
-  margin: 55px 180px 0 100px;
-  float: right;
-} 
-
-
 
 /***************************FOOTER*********************/
 footer {
-	background-color: #524A3A;
+	background-color: #163224;
 	color:#FFFAE1;
 	padding:20px 0 px 0;
 	text-align: center;

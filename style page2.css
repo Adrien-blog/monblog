@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600;1,700&family=Roboto:wght@100&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-	font-family:'Advent Pro', sans-serif;
+body {   
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color : #808080
 	padding: 0;
 	margin : 0;
 }
@@ -25,19 +28,29 @@ h2 {
 }
 a {
 	text-decoration:none;
-	color: black;
+	color: #FFFFFF;
+	padding-top:30px;
+	fint-size:1.2em;
 }
+
+
+h4{
+float= "right";
+text-align: justify;
+font-size:1.2em;
+}
+
 /*************************************NAVBAR******************************/
 nav {
 	overflow: hidden;
-	background-color:#f1e692 ;
+	background-color:#101b1d;
 	position: fixed;
 	width: 100%;
 	opacity: 0.9;
 }
 header li {
 	float: right;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 header li a {
@@ -47,7 +60,8 @@ header li a {
 	padding: 18px 16px;
 }
 #logo{
-	font-family:'Dancing Script'; cursive;
+	font-family: 'Arimo', sans-serif;
+	cursive;
 	font-weight: bold;
 	float: left;
 }
@@ -56,13 +70,15 @@ header li a {
 
 #imagePrincipale {
 	padding-top:60px;
-	background: url(images/mouche3.jpg) no-repeat fixed 50% 50%;
+	background: url(images/moucheS.jpg)no-repeat fixed 100% 50%;
 	background-size:cover;
-	height: 499px;
+	height: 499px;	
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Arimo', sans-serif; 
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 	color: black;
 	font-size: 6em;
@@ -70,20 +86,52 @@ h1 {
 }
 
 #premierTrait {
-	height: 1px
-	width : 25%
+	height: 1px;
+	width : 25%;
 	margin: -3px auto;
-	background-color : #FFFAE1;
+	background-color : black;
 }
 
 h3 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Arimo', sans-serif;
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 	color: black;
-	font-size: 3em;
+	font-size: 4em;
+}
+
+
+
+/******************PRESENTATION****************/
+
+#master{
+	height : 500px;
+	background-color: white;
+	padding:0px 130px 10px 130px;
+}
+
+#master h2 {
+	padding-top: 60px;
+}
+
+
+.imagesposter img:hover {
+	opacity: 0.5;
+	height="400" width="250"
+	transform: scale(1.05);
+	transition : 0.6s ease-in-out;
+}
+
+#traitdeux {
+	height: 1.5px;
+	width : 100%;
+	margin: -3px auto;
+	background-color : black;
 }
 
 /******************MOUCHES****************/
+
 #mouche {
 	blackground-color: #FFFAE1;
 	padding:10px 0px 100px 0;
@@ -99,7 +147,7 @@ h3 {
 	padding: 30px 10%;
 }
 .imagesmouche h4 {
-	font-family:'Dancing Script', cursive;
+	font-family: 'Roboto', cursive;
 	text-align: center;
 	font-size: 1.8em;
 	margin : 15px;
@@ -117,74 +165,11 @@ h3 {
 }
 
 
-
-/*********************************PECHE**************************/
-#poissons{
-	height : 1400px;
-	background-color: #f1f2f6;
-	padding: 1px 2%;
-}
-#poissons h2 {
-	padding-top: 60px;
-}
-#Photo1 {
-	background: url(images/truite.jpg);
-	background-size:cover;
-	
-}
-#Photo2 {
-	background: url(images/dorade.jpg);
-	background-size:cover;
-}
-#Photo3 {
-	background: url(images/eau.jpg);
-	background-size:cover;
-}
-
-#poissons li {
-
-  margin: 65px 100px 0 100px;
-  height: 326px;
-  width: 55%;
-  max-width: 550px;
-  float: left;
-  box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
-}
-
-#poissons #Photo3{
-	height : 420px;
-	width : 60%
-}
-
-#poissons p {
-	
-	height: 45px;
-	width: 235px;
-	background-color : #ab9b24;
-	float: right;
-	margin: 50px -180px 0 0;
-	front-size: 1.5em;
-	text-align : center;
-	padding-top :15px;
-	box-shadow: 4px 0 1 px rdb
-}
-	
-#poissons #Photo2 {
-	float: right;
-}
-#Photo2 p {
-	float : left;
-	background-color: #ab9b24;
-	margin-left:-180px;
-	box-shadow: -4px 4px 0 1px rgba(15;154,156,1);
-}  
-
-
 /***************************FOOTER*********************/
 footer {
-	background-color: #524A3A;
+	background-color: #163224;
 	color:#FFFAE1;
-	padding:20px 0 AOpx 0;
+	padding:20px 0 px 0;
 	text-align: center;
 }
 form {

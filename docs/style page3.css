@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600;1,700&family=Roboto:wght@100&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {   
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color : #808080
+	padding: 0;
+	margin : 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top:30px;
+	fint-size:2em;
+}
+a {
+	text-decoration:none;
+	color: #FFFFFF;
+	padding-top:30px;
+	fint-size:1.2em;
+}
+
+
+h4{
+float= "right";
+text-align: justify;
+font-size:1.2em;
+}
+
+/*************************************NAVBAR******************************/
+nav {
+	overflow: hidden;
+	background-color:#101b1d;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+header li {
+	float: right;
+	font-size: 1.5em;
+}
+
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+#logo{
+	font-family: 'Arimo', sans-serif;
+	cursive;
+	font-weight: bold;
+	float: left;
+}
+
+/************************************IMAGE PRINCIPALE****************/
+
+#imagePrincipale {
+	padding-top:60px;
+	background: url(images/moucheS.jpg)no-repeat fixed 100% 50%;
+	background-size:cover;
+	height: 499px;	
+}
+
+h1 {
+	font-family: 'Arimo', sans-serif; 
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-size: 6em;
+	margin-top: 40px;
+}
+
+#premierTrait {
+	height: 1px;
+	width : 25%;
+	margin: -3px auto;
+	background-color : black;
+}
+
+h3 {
+	font-family: 'Arimo', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-size: 4em;
+}
+
+/******************MOUCHES****************/
+#mouche {
+	blackground-color: #FFFAE1;
+	padding:10px 0px 100px 0;
+}
+#textIntro {
+	padding:0px 10%;
+}
+
+#mouches {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+.imagesmouche h4 {
+	font-family: 'Roboto', cursive;
+	text-align: center;
+	font-size: 1.8em;
+	margin : 15px;
+	font-weight: 300;
+}
+
+.imagesmouche img {
+	border-radius: 10px;
+}
+
+.imagesmouche img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition : 0.6s ease-in-out;
+}
+
+
+/*********************************PECHE**************************/
+#poissons{
+	height : 1400px;
+	background-color: #f1f2f6;
+	padding: 1px 2%;
+}
+#poissons h2 {
+	padding-top: 60px;
+}
+#Photo1 {
+	background: url(images/truite.jpg);
+	background-size:cover;
+	
+}
+#Photo2 {
+	background: url(images/dorade.jpg);
+	background-size:cover;
+}
+#Photo3 {
+	background: url(images/eau.jpg);
+	background-size:cover;
+}
+
+#poissons li {
+
+  margin: 65px 100px 0 100px;
+  height: 326px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+
+#poissons #Photo3{
+	height : 420px;
+	width : 60%
+}
+
+#poissons p {
+	
+	height: 45px;
+	width: 235px;
+	background-color : #ab9b24;
+	float: right;
+	margin: 50px -180px 0 0;
+	front-size: 1.5em;
+	text-align : center;
+	padding-top :15px;
+	box-shadow: 4px 0 1 px rdb
+}
+	
+#poissons #Photo2 {
+	float: right;
+}
+#Photo2 p {
+	float : left;
+	background-color: #ab9b24;
+	margin-left:-180px;
+	box-shadow: -4px 4px 0 1px rgba(15;154,156,1);
+}  
+
+/***************************FOOTER*********************/
+footer {
+	background-color: #524A3A;
+	color:#FFFAE1;
+	padding:20px 0 AOpx 0;
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+	max-width: 900px;
+}
+input, textarea, button {
+	border: none;
+	width : 55%;
+	padding : 15px 10px;
+	margin : 1px 0;
+	font-size: 1.2em;
+	font-family: 'Advent Pro', sans-serif;
+	border-radius: 8px;
+}
+textarea {
+	height : 120px;
+}
+button {
+	font-size: 1.5em;
+	background-color:#FFFAE1;
+}
+button:hover {
+	background-color:#e55039;
+	color: #FFFAE1;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+#deuxiemetrait {
+	height: 1px;
+	width: 75%;
+	background-color: #FFFAE1;
+	margin : 60px auto;
+}
+#copyrightEtIcons {
+	display: flex;
+	margin-bottom: 20px;
+	padding : 0 10%;
+}
+#copyright {
+	width: 50%;
+	text-align:left;
+	color:#FFFAE1;	
+}
+#icons {
+	width: 50%;
+	text-align : right;
+}
+#icons a {
+	display: inline-block;
+	padding: 0 15px;
+	font-size : 1.3em;
+	color:#FFFAE1;	
+}
+#icons a: hover {
+	transform: scale(1.5);
+	transition:0.1s;
+}

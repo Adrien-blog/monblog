@@ -105,8 +105,9 @@ h3 {
 
 /******************PRESENTATION****************/
 
+
 #master{
-	height : 500px;
+	height : 550px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
 }
@@ -130,6 +131,7 @@ h3 {
 	background-color : black;
 }
 
+
 /******************MOUCHES****************/
 
 #mouche {
@@ -139,6 +141,7 @@ h3 {
 #textIntro {
 	padding:0px 10%;
 }
+
 
 #mouches {
 	display:flex;

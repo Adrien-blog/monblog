@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600;1,700&family=Roboto:wght@100&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-	font-family:'Advent Pro', sans-serif;
+body {   
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color : #808080
 	padding: 0;
 	margin : 0;
 }
@@ -25,19 +28,29 @@ h2 {
 }
 a {
 	text-decoration:none;
-	color: black;
+	color: #FFFFFF;
+	padding-top:30px;
+	fint-size:1.2em;
 }
+
+
+h4{
+float= "right";
+text-align: justify;
+font-size:1.2em;
+}
+
 /*************************************NAVBAR******************************/
 nav {
 	overflow: hidden;
-	background-color:#f1e692 ;
+	background-color:#101b1d;
 	position: fixed;
 	width: 100%;
 	opacity: 0.9;
 }
 header li {
 	float: right;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 header li a {
@@ -47,7 +60,8 @@ header li a {
 	padding: 18px 16px;
 }
 #logo{
-	font-family:'Dancing Script'; cursive;
+	font-family: 'Arimo', sans-serif;
+	cursive;
 	font-weight: bold;
 	float: left;
 }
@@ -56,13 +70,15 @@ header li a {
 
 #imagePrincipale {
 	padding-top:60px;
-	background: url(images/mouche4.jpg) no-repeat fixed 50% 50%;
+	background: url(images/moucheS.jpg)no-repeat fixed 100% 50%;
 	background-size:cover;
-	height: 499px;
+	height: 499px;	
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Arimo', sans-serif; 
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 	color: black;
 	font-size: 6em;
@@ -70,17 +86,19 @@ h1 {
 }
 
 #premierTrait {
-	height: 1px
-	width : 25%
+	height: 1px;
+	width : 25%;
 	margin: -3px auto;
-	background-color : #FFFAE1;
+	background-color : black;
 }
 
 h3 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Arimo', sans-serif;
+	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 	color: black;
-	font-size: 3em;
+	font-size: 4em;
 }
 
 /******************MOUCHES****************/
@@ -99,7 +117,7 @@ h3 {
 	padding: 30px 10%;
 }
 .imagesmouche h4 {
-	font-family:'Dancing Script', cursive;
+	font-family: 'Roboto', cursive;
 	text-align: center;
 	font-size: 1.8em;
 	margin : 15px;
@@ -115,7 +133,6 @@ h3 {
 	transform: scale(1.05);
 	transition : 0.6s ease-in-out;
 }
-
 
 
 /*********************************PECHE**************************/

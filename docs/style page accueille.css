@@ -8,7 +8,7 @@ body {
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	color : #808080
+	color : #black;
 	padding: 0;
 	margin : 0;
 }
@@ -102,6 +102,11 @@ h3 {
 }
 
 /******************MOUCHES****************/
+
+#mouchetexte{
+	padding:0px 130px 10px 130px;
+}
+
 #mouche {
 	blackground-color: #FFFAE1;
 	padding:10px 0px 100px 0;

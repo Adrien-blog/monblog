@@ -196,11 +196,12 @@ h3 {
 	box-shadow: -4px 4px 0 1px rgba(15;154,156,1);
 }  
 
+
 /***************************FOOTER*********************/
 footer {
-	background-color: #524A3A;
+	background-color: #163224;
 	color:#FFFAE1;
-	padding:20px 0 AOpx 0;
+	padding:20px 0 px 0;
 	text-align: center;
 }
 form {
@@ -259,3 +260,4 @@ button:hover {
 	transform: scale(1.5);
 	transition:0.1s;
 }
+

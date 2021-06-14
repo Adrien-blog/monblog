@@ -70,7 +70,7 @@ header li a {
 
 #imagePrincipale {
 	padding-top:60px;
-	background: url(images/moucheS.jpg)no-repeat fixed 100% 50%;
+	background: url(images/vaucluse.JPG)no-repeat fixed 100% 50%;
 	background-size:cover;
 	height: 499px;	
 }
@@ -107,13 +107,17 @@ h3 {
 
 
 #master{
-	height : 550px;
+	height : 1400px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
 }
 
 #master h2 {
 	padding-top: 60px;
+}
+
+#textIntro {
+	padding:0px 10%;
 }
 
 
@@ -124,6 +128,68 @@ h3 {
 	transition : 0.6s ease-in-out;
 }
 
+
+/*********************IMAGES CNR***********************/
+
+#images_cnr{
+	height : 1050px;
+	background-color: white;
+	padding:0px 130px 10px 130px;
+}
+
+#Photocnr {
+	background: url(images/accueil_cnr.JPG);
+	background-size:cover;
+	
+}
+#Photorhone {
+	background: url(images/rhone.jpg);
+	background-size:cover;
+}
+
+
+#images_cnr li {
+
+  margin: 65px 70px 0 70px;
+  height: 400px;
+  width: 100%;
+  max-width: 800px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+
+
+#images_cnr #Photorhone{
+	float: right;
+	height : 320px;
+	width : 50%;
+}
+
+
+#images_cnr p {
+	
+	height: 45px;
+	width: 235px;
+	color: white;
+	background-color : #101b1d;
+	float: right;
+	margin: 50px -180px 0 0;
+	front-size: 2.5em;
+	text-align : center;
+	padding-top :15px;
+	box-shadow: 4px 0 1 px rdb;
+}
+	
+
+#Photorhone p {
+	float : left;
+	color: white;
+	background-color: #101b1d;
+	margin-left:-180px;
+	box-shadow: -4px 4px 0 1px rgba(15;154,156,1);
+}  
+
+
 #traitdeux {
 	height: 1.5px;
 	width : 100%;
@@ -131,15 +197,11 @@ h3 {
 	background-color : black;
 }
 
-
 /******************MOUCHES****************/
 
 #mouche {
 	blackground-color: #FFFAE1;
 	padding:10px 0px 100px 0;
-}
-#textIntro {
-	padding:0px 10%;
 }
 
 

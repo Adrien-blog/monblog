@@ -101,13 +101,23 @@ h3 {
 	font-size: 4em;
 }
 
+
+/**********LICENCE**********/
+
+#textIntro {
+	padding:0px 5%;
+}
+
+#licence{
+	height : 600px;
+	padding: 1px 5%;
+}
+
+
 /******************MOUCHES****************/
 #mouche {
 	blackground-color: #FFFAE1;
 	padding:10px 0px 100px 0;
-}
-#textIntro {
-	padding:0px 10%;
 }
 
 #mouches {
@@ -133,68 +143,6 @@ h3 {
 	transform: scale(1.05);
 	transition : 0.6s ease-in-out;
 }
-
-
-/*********************************PECHE**************************/
-#poissons{
-	height : 1400px;
-	background-color: #f1f2f6;
-	padding: 1px 2%;
-}
-#poissons h2 {
-	padding-top: 60px;
-}
-#Photo1 {
-	background: url(images/truite.jpg);
-	background-size:cover;
-	
-}
-#Photo2 {
-	background: url(images/dorade.jpg);
-	background-size:cover;
-}
-#Photo3 {
-	background: url(images/eau.jpg);
-	background-size:cover;
-}
-
-#poissons li {
-
-  margin: 65px 100px 0 100px;
-  height: 326px;
-  width: 55%;
-  max-width: 550px;
-  float: left;
-  box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
-}
-
-#poissons #Photo3{
-	height : 420px;
-	width : 60%
-}
-
-#poissons p {
-	
-	height: 45px;
-	width: 235px;
-	background-color : #ab9b24;
-	float: right;
-	margin: 50px -180px 0 0;
-	front-size: 1.5em;
-	text-align : center;
-	padding-top :15px;
-	box-shadow: 4px 0 1 px rdb
-}
-	
-#poissons #Photo2 {
-	float: right;
-}
-#Photo2 p {
-	float : left;
-	background-color: #ab9b24;
-	margin-left:-180px;
-	box-shadow: -4px 4px 0 1px rgba(15;154,156,1);
-}  
 
 
 /***************************FOOTER*********************/
@@ -260,4 +208,3 @@ button:hover {
 	transform: scale(1.5);
 	transition:0.1s;
 }
-

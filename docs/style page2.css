@@ -70,7 +70,7 @@ header li a {
 
 #imagePrincipale {
 	padding-top:60px;
-	background: url(images/vaucluse.JPG)no-repeat fixed 100% 50%;
+	background: url(images/vaucluse.PNG)no-repeat fixed 100% 50%;
 	background-size:cover;
 	height: 499px;	
 }
@@ -107,17 +107,13 @@ h3 {
 
 
 #master{
-	height : 1400px;
+	height : 1600px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
 }
 
 #master h2 {
 	padding-top: 60px;
-}
-
-#textIntro {
-	padding:0px 10%;
 }
 
 
@@ -132,16 +128,11 @@ h3 {
 /*********************IMAGES CNR***********************/
 
 #images_cnr{
-	height : 1050px;
+	height : 700px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
 }
 
-#Photocnr {
-	background: url(images/accueil_cnr.JPG);
-	background-size:cover;
-	
-}
 #Photorhone {
 	background: url(images/rhone.jpg);
 	background-size:cover;

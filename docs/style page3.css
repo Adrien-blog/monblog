@@ -30,7 +30,7 @@ a {
 	text-decoration:none;
 	color: #FFFFFF;
 	padding-top:30px;
-	fint-size:1.2em;
+	font-size:1.2em;
 }
 
 
@@ -109,11 +109,9 @@ h3 {
 }
 
 #licence{
-	height : 400px;
+	height : 200px;
 	padding: 1px 5%;
 }
-
-
 
 #traitdeux {
 	height: 1.5px;
@@ -126,15 +124,23 @@ h3 {
 /************************IMAGE BRGM******************/
 
 #images_brgm{
-	height : 500px;
+	height : 1100px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
+	text-align: center;
+}
+
+.imagesbrgm img:hover {
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition : 0.6s ease-in-out;
+
 }
 
 /******************MOUCHES****************/
 #mouche {
 	blackground-color: #FFFAE1;
-	padding:10px 0px 100px 0;
+	padding:10px 0px 10px 0;
 }
 
 #mouches {

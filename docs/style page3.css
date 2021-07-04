@@ -30,7 +30,7 @@ a {
 	text-decoration:none;
 	color: #FFFFFF;
 	padding-top:30px;
-	font-size:1.2em;
+	fint-size:1.2em;
 }
 
 
@@ -40,7 +40,9 @@ text-align: justify;
 font-size:1.2em;
 }
 
+
 /*************************************NAVBAR******************************/
+
 nav {
 	overflow: hidden;
 	background-color:#101b1d;
@@ -109,22 +111,15 @@ h3 {
 }
 
 #licence{
-	height : 200px;
+	height : 100px;
 	padding: 1px 5%;
-}
-
-#traitdeux {
-	height: 1.5px;
-	width : 100%;
-	margin: -3px auto;
-	background-color : black;
 }
 
 
 /************************IMAGE BRGM******************/
 
 #images_brgm{
-	height : 1100px;
+	height : 1130px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
 	text-align: center;
@@ -134,7 +129,13 @@ h3 {
 	opacity: 0.5;
 	transform: scale(1.05);
 	transition : 0.6s ease-in-out;
+}
 
+#traitdeux {
+	height: 1.5px;
+	width : 100%;
+	margin: -3px auto;
+	background-color : black;
 }
 
 /******************MOUCHES****************/

@@ -107,7 +107,7 @@ h3 {
 
 
 #master{
-	height : 1600px;
+	height : 400px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
 	text-align: center;
@@ -127,7 +127,7 @@ h3 {
 /*********************IMAGES CNR***********************/
 
 #images_cnr{
-	height : 700px;
+	height : 400px;
 	background-color: white;
 	padding:0px 130px 10px 130px;
 }

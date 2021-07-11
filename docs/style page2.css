@@ -130,6 +130,13 @@ h3 {
 	background-size:cover;
 }
 
+
+#images_cnr #Photorhone{
+	float: right;
+	height : 350px;
+	width : 60%;
+}
+
 /*********************IMAGES CNR***********************/
 
 #images_cnr{
@@ -153,13 +160,6 @@ h3 {
   max-width: 800px;
   float: left;
   box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
-}
-
-
-#images_cnr #Photorhone{
-	float: right;
-	height : 420px;
-	width : 75%;
 }
 
 

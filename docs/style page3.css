@@ -147,14 +147,14 @@ h3 {
 /******************MOUCHES****************/
 #mouche {
 	blackground-color: #FFFAE1;
-	padding:10px 0px 10px 0;
+	padding:10px 10px 10px 10;
 }
 
 #mouches {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-between;
-	padding: 30px 10%;
+	padding: 60px 20%;
 }
 .imagesmouche h4 {
 	font-family: 'Roboto', cursive;
